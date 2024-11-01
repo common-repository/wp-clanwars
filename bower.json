@@ -1,0 +1,21 @@
+{
+  "name": "wp-clanwars",
+  "version": "2.0.1",
+  "homepage": "https://github.com/pronebird/wp-clanwars",
+  "authors": [
+    "Andrej Mihajlov <and@codeispoetry.ru>"
+  ],
+  "license": "GPL 3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "select2": "~4.0.0",
+    "tipsy": "master",
+    "font-awesome": "~4.4.0"
+  }
+}

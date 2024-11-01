@@ -1,0 +1,1110 @@
+# Copyright (C) 2018 WP-ClanWars
+# This file is distributed under the same license as the WP-ClanWars package.
+# Translators:
+# Andrei Mihailov <and@codeispoetry.ru>, 2018
+# Andrei Mihailov <and@codeispoetry.ru>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-ClanWars\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/wp-clanwars\n"
+"POT-Creation-Date: 2018-06-19 10:24:26+00:00\n"
+"PO-Revision-Date: 2018-06-19 10:43+0000\n"
+"Last-Translator: Andrei Mihailov <and@codeispoetry.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/code-is-poetry/wp-clanwars/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: classes/acl.class.php:101
+msgid "Manage matches"
+msgstr "Управление матчами"
+
+#: classes/acl.class.php:102
+msgid "Manage games"
+msgstr "Управление играми"
+
+#: classes/acl.class.php:103
+msgid "Manage teams"
+msgstr "Управление командами"
+
+#: classes/api.class.php:166
+msgid "File is not found on server."
+msgstr "Файл не найден на сервере."
+
+#: classes/api.class.php:252
+msgid "Authorization required."
+msgstr "Необходима авторизация."
+
+#: classes/games_table.class.php:58
+msgid "Games per page"
+msgstr "Кол-во игр на страницу"
+
+#: classes/games_table.class.php:67 classes/maps_table.class.php:69
+#: classes/match_table.class.php:68 classes/teams_table.class.php:68
+#: views/edit_game.php:15 views/edit_map.php:15 views/edit_match.php:59
+#: views/edit_team.php:14 wp-clanwars.php:1098
+msgid "Title"
+msgstr "Название"
+
+#: classes/games_table.class.php:68 views/edit_game.php:22
+msgid "Game tag"
+msgstr "Тег игры"
+
+#: classes/games_table.class.php:92 views/cloud_published_games.php:10
+#: views/import_browse.php:10
+msgid "No games found."
+msgstr "Игры не найдены."
+
+#: classes/games_table.class.php:131 classes/maps_table.class.php:132
+#: classes/match_table.class.php:163 classes/teams_table.class.php:145
+msgid "Edit"
+msgstr "Изменить"
+
+#: classes/games_table.class.php:132
+msgid "Maps"
+msgstr "Карты"
+
+#: classes/games_table.class.php:133
+msgid "Export"
+msgstr "Экспорт"
+
+#: classes/games_table.class.php:134 classes/maps_table.class.php:89
+#: classes/maps_table.class.php:133 classes/match_table.class.php:97
+#: classes/match_table.class.php:164 classes/teams_table.class.php:90
+#: classes/teams_table.class.php:146 views/settings.php:47
+#: views/settings.php:122
+msgid "Delete"
+msgstr "Удалить"
+
+#: classes/maps_table.class.php:58
+msgid "Maps per page"
+msgstr "Кол-во карт на страницу"
+
+#: classes/maps_table.class.php:68 views/edit_map.php:22
+msgid "Screenshot"
+msgstr "Скриншот"
+
+#: classes/maps_table.class.php:94
+msgid "No maps found."
+msgstr "Карты не найдены."
+
+#: classes/match_table.class.php:58
+msgid "Matches per page"
+msgstr "Кол-во матчей на страницу"
+
+#: classes/match_table.class.php:69 views/edit_match.php:48
+msgid "Game"
+msgstr "Игра"
+
+#: classes/match_table.class.php:70 views/edit_match.php:95
+msgid "Date"
+msgstr "Дата"
+
+#: classes/match_table.class.php:71
+msgid "Status"
+msgstr "Статус"
+
+#: classes/match_table.class.php:72
+msgid "Team 1"
+msgstr "Команда 1"
+
+#: classes/match_table.class.php:73
+msgid "Team 2"
+msgstr "Команда 2"
+
+#: classes/match_table.class.php:74
+msgid "Tickets"
+msgstr "Очки"
+
+#: classes/match_table.class.php:102
+msgid "No matches found."
+msgstr "Матчи не найдены."
+
+#: classes/match_table.class.php:143 wp-clanwars.php:252
+msgid "PCW"
+msgstr "Тренировка"
+
+#: classes/match_table.class.php:144 wp-clanwars.php:253
+msgid "Official"
+msgstr "Официальный"
+
+#: classes/match_table.class.php:150
+msgid "%s:%s"
+msgstr "%s:%s"
+
+#: classes/matches.class.php:232
+msgid "%s vs. %s"
+msgstr "%s vs. %s"
+
+#: classes/matches.class.php:235
+msgctxt "match_excerpt"
+msgid "%s vs. %s"
+msgstr "%s vs. %s"
+
+#: classes/matches.class.php:236 wp-clanwars-widget.php:209
+#: wp-clanwars.php:2379
+msgid "%d:%d"
+msgstr "%d:%d"
+
+#: classes/teams_table.class.php:58
+msgid "Teams per page"
+msgstr "Кол-во команд на страницу"
+
+#: classes/teams_table.class.php:69 views/edit_team.php:21
+#: wp-clanwars.php:1099
+msgid "Country"
+msgstr "Страна"
+
+#: classes/teams_table.class.php:95
+msgid "No teams found."
+msgstr "Команды не найдены."
+
+#: classes/teams_table.class.php:120
+msgid "Home Team"
+msgstr "Наша команда"
+
+#: classes/teams_table.class.php:149
+msgid "Set As Home Team"
+msgstr "Сделать домашней командой"
+
+#: classes/utils.class.php:147
+msgid ""
+"%1$s%5$s %2$s @ %3$s : %4$s|1: month input, 2: day input, 3: hour input, 4: "
+"minute input, 5: year input"
+msgstr "%1$s%5$s %2$s @ %3$s : %4$s|1: month input, 2: day input, 3: hour input, 4: minute input, 5: year input"
+
+#: views/cloud_published_games.php:35
+msgid "Approved"
+msgstr "Принято"
+
+#: views/cloud_published_games.php:37
+msgid "Pending review"
+msgstr "Ожидает проверку"
+
+#: views/edit_game.php:15 views/edit_map.php:15 views/edit_team.php:14
+msgid "required"
+msgstr "Обязательно"
+
+#: views/edit_game.php:25
+msgid "For example: for Left 4 Dead 2 it can be L4D2."
+msgstr "Например: Left 4 Dead 2 может быть L4D2"
+
+#: views/edit_game.php:30
+msgid "Icon"
+msgstr "Иконка"
+
+#: views/edit_game.php:37
+msgid "Delete Icon"
+msgstr "Удалить иконку"
+
+#: views/edit_map.php:29
+msgid "Delete Screenshot"
+msgstr "Удалить скриншот"
+
+#: views/edit_match.php:30
+msgid "Edit post"
+msgstr "Изменить запись"
+
+#: views/edit_match.php:31
+msgid "View post"
+msgstr "Просмотреть запись"
+
+#: views/edit_match.php:32
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d Комментарий"
+msgstr[1] "%d Комментария"
+msgstr[2] "%d Комментариев"
+msgstr[3] "%d Комментариев"
+
+#: views/edit_match.php:61
+msgid "For example: ESL Winter League"
+msgstr "Например: Зимние соревнования на ESL"
+
+#: views/edit_match.php:66
+msgid "Description"
+msgstr "Описание"
+
+#: views/edit_match.php:68
+msgid "Optional: Drop a line or two about match."
+msgstr "Опционально: Расскажите как прошел матч."
+
+#: views/edit_match.php:73
+msgid "External URL"
+msgstr "Внешний URL-адрес "
+
+#: views/edit_match.php:77
+msgid "Enter league or external match URL."
+msgstr "Введите URL-адрес лиги или внешний адрес матча."
+
+#: views/edit_match.php:82
+msgid "Match status"
+msgstr "Статус матча"
+
+#: views/edit_match.php:111
+msgid "vs"
+msgstr "против"
+
+#: views/edit_match.php:119
+msgid ""
+"or type in the name of the opponent team and it will be automatically "
+"created:"
+msgstr "или введите название команды соперника и она будет автоматически создана:"
+
+#: views/edit_match.php:121 wp-clanwars.php:888
+msgid "New Team"
+msgstr "Новая команда"
+
+#: views/edit_match.php:127
+msgid "Add map"
+msgstr "Добавить карту"
+
+#: views/edit_match.php:135
+msgid "Gallery"
+msgstr "Галерея"
+
+#: views/edit_match.php:139 wp-clanwars.php:2045
+msgid "Add images"
+msgstr "Добавить изображения"
+
+#: views/edit_match.php:144
+msgid "Gallery size:"
+msgstr "Размер галереи:"
+
+#: views/edit_match.php:148
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: views/edit_match.php:149
+msgid "Medium"
+msgstr "Средний"
+
+#: views/edit_match.php:150
+msgid "Large"
+msgstr "Большой"
+
+#: views/edit_match.php:151
+msgid "Full Size"
+msgstr "Оригинал"
+
+#: views/edit_match.php:161
+msgid "Columns:"
+msgstr "Кол-во колонок:"
+
+#: views/edit_match.php:172
+msgid "Link to: "
+msgstr "Ссылка:"
+
+#: views/edit_match.php:176
+msgid "Attachment page"
+msgstr "Страница вложения"
+
+#: views/edit_match.php:177
+msgid "Media File"
+msgstr "Файл"
+
+#: views/edit_match.php:178 wp-clanwars.php:2716
+msgid "None"
+msgstr "Ничего"
+
+#: views/edit_team.php:28 wp-clanwars.php:1097
+msgid "Logo"
+msgstr "Логотип"
+
+#: views/edit_team.php:35
+msgid "Delete Logo"
+msgstr "Удалить логотип"
+
+#: views/game_table.php:2 wp-clanwars.php:406 wp-clanwars.php:407
+msgid "Games"
+msgstr "Игры"
+
+#: views/game_table.php:4 views/map_table.php:3 views/match_table.php:3
+#: views/team_table.php:3
+msgid "Add New"
+msgstr "Создать"
+
+#: views/import_publish.php:5
+msgid "You can share created games with others."
+msgstr "Вы можете поделиться созданными играми с другими пользователями."
+
+#: views/import_publish.php:9
+msgid ""
+"Upload may take some time. Please do not refresh browser when in progress."
+msgstr "Загружать может занять некоторое время. Пожалуйста, не обновляйте страницу во время загрузки."
+
+#: views/import_publish.php:18
+msgid "ZIP file"
+msgstr "ZIP файл"
+
+#: views/import_publish.php:26
+msgid ""
+"I agree that the contents I share will be available to other users free of "
+"charge."
+msgstr "Я согласен с тем, что загружаемый файл и его содержимое будут доступны другим пользователям бесплатно."
+
+#: views/import_publish.php:31
+msgid "Publish Now"
+msgstr "Опубликовать"
+
+#: views/import_publish.php:38
+msgid "Please log in first."
+msgstr "Пожалуйста, сначала выполните вход в систему."
+
+#: views/import_upload.php:2 views/partials/cloud_nav.php:4
+msgid "Install from ZIP"
+msgstr "Установить из ZIP архива"
+
+#: views/import_upload.php:3
+msgid "Back to Cloud"
+msgstr "Назад в \"Облако\""
+
+#: views/import_upload.php:5
+msgid ""
+"If you have a game pack in a .zip format, you may install it by uploading it"
+" here."
+msgstr "Если у вас есть игра в формате .zip, вы можете установить её здесь путем загрузки файла."
+
+#: views/import_upload.php:6
+msgid ""
+"Import may take some time. Please do not refresh browser when in progress."
+msgstr "Импорт может занять некоторое время. Пожалуйста, не обновляйте страницу во время импорта."
+
+#: views/import_upload.php:14
+msgid "Install Now"
+msgstr "Установить"
+
+#: views/map_table.php:2
+msgid "Maps / %s"
+msgstr "Карты / %s"
+
+#: views/match_table.php:2 wp-clanwars.php:388 wp-clanwars.php:389
+msgid "Matches"
+msgstr "Матчи"
+
+#: views/match_view.php:43 wp-clanwars-widget.php:205 wp-clanwars.php:2375
+msgid "Upcoming"
+msgstr "Предстоящий"
+
+#: views/match_view.php:45 wp-clanwars-widget.php:207 wp-clanwars.php:2377
+msgid "Live"
+msgstr "Идет игра"
+
+#: views/match_view.php:47
+msgid "Final"
+msgstr "Финал"
+
+#: views/partials/account_header.php:12
+msgid "Log out"
+msgstr "Выйти"
+
+#: views/partials/account_header.php:21
+msgid "Log in"
+msgstr "Войти"
+
+#: views/partials/account_header.php:22
+msgid "Log in to vote and share games! More stuff will be added later!"
+msgstr "Выполните вход, чтобы голосовать и делиться созданными играми! Другие возможности также будут добавлены позже!"
+
+#: views/partials/account_header.php:22
+msgid "Why should I?"
+msgstr "Почему?"
+
+#: views/partials/browse_game_item.php:11
+msgid "INSTALLED"
+msgstr "УСТАНОВЛЕНО"
+
+#: views/partials/browse_game_item.php:20
+msgid "INSTALL NOW"
+msgstr "УСТАНОВИТЬ"
+
+#: views/partials/browse_game_item.php:20
+msgid "GET"
+msgstr "Загрузить"
+
+#: views/partials/browse_game_item.php:52
+msgctxt "Number of ratings"
+msgid "(%d)"
+msgstr "(%d)"
+
+#: views/partials/browse_game_item.php:56
+msgid "Published:"
+msgstr "Опубликовано:"
+
+#: views/partials/browse_game_item.php:59
+msgctxt "Number of downloads"
+msgid "%d install"
+msgid_plural "%d installs"
+msgstr[0] "%d установка"
+msgstr[1] "%d установки"
+msgstr[2] "%d установок"
+msgstr[3] "%d установок"
+
+#: views/partials/browse_games_error.php:1
+msgid "Cannot connect to API."
+msgstr "Невозможно подключиться к серверу API."
+
+#: views/partials/browse_games_error.php:2
+msgid "Error: %s"
+msgstr "Ошибка: %s"
+
+#: views/partials/cloud_nav.php:3 views/partials/login_box.php:5
+#: wp-clanwars.php:415 wp-clanwars.php:416
+msgid "Clanwars Cloud"
+msgstr "Облако Clanwars"
+
+#: views/partials/cloud_nav.php:12
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: views/partials/cloud_nav.php:15
+msgid "Popular"
+msgstr "Популярные"
+
+#: views/partials/cloud_nav.php:17
+msgid "Published"
+msgstr "Опубликовано"
+
+#: views/partials/cloud_nav.php:19
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: views/partials/cloud_nav.php:25 views/setup_games.php:41
+msgid "Search Games"
+msgstr "Поиск игр"
+
+#: views/partials/login_box.php:9
+msgid "Log in with Steam"
+msgstr "Войти с Steam"
+
+#: views/partials/login_box.php:10
+msgid "Log in with Facebook"
+msgstr "Войти с Facebook"
+
+#: views/partials/update_account_box.php:19
+msgid "Enter your display name"
+msgstr "Введите ваше имя"
+
+#: views/settings.php:3 wp-clanwars.php:424 wp-clanwars.php:425
+msgid "Settings"
+msgstr "Настройки"
+
+#: views/settings.php:12
+msgid "Matches Category"
+msgstr "Категория для матчей"
+
+#: views/settings.php:18
+msgid "Enable default styles"
+msgstr "Использовать стили по-умолчанию"
+
+#: views/settings.php:26
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: views/settings.php:32
+msgid "User Access"
+msgstr "Права пользователя"
+
+#: views/settings.php:46 views/settings.php:121
+msgid "Actions"
+msgstr "Действия"
+
+#: views/settings.php:49 views/settings.php:124
+msgid "Apply"
+msgstr "Применить"
+
+#: views/settings.php:73
+msgid "No items found."
+msgstr "Ничего не найдено,"
+
+#: views/settings.php:92
+msgid "Yes"
+msgstr "Да"
+
+#: views/settings.php:92
+msgid "No"
+msgstr "Нет"
+
+#: views/settings.php:98 wp-clanwars-widget.php:167 wp-clanwars-widget.php:168
+#: wp-clanwars.php:2339 wp-clanwars.php:2340 wp-clanwars.php:2734
+#: wp-clanwars.php:2735
+msgid "All"
+msgstr "Все"
+
+#: views/settings.php:139
+msgid "Add New User"
+msgstr "Добавить нового пользователя"
+
+#: views/settings.php:146
+msgid "User"
+msgstr "Пользователь"
+
+#: views/settings.php:151
+msgid "Allow user manage specified games only:"
+msgstr "Разрешить пользователю управлять указанными играми:"
+
+#: views/settings.php:157
+msgid "Users that can manage all games, can also create the new ones."
+msgstr "Пользователи могут управлять всеми играми, а также создавать новые."
+
+#: views/settings.php:161
+msgid "Allow user:"
+msgstr "Разрешить пользователю:"
+
+#: views/settings.php:173
+msgid "Add User"
+msgstr "Добавить пользователя"
+
+#: views/setup_games.php:3 views/setup_team.php:3 wp-clanwars.php:696
+msgid "Get started with WP-Clanwars"
+msgstr "Начните пользоваться WP-Clanwars"
+
+#: views/setup_games.php:7
+msgid "Install games"
+msgstr "Установить игры"
+
+#: views/setup_games.php:15
+msgid "Choose one of the options:"
+msgstr "Выберите один из вариантов:"
+
+#: views/setup_games.php:18
+msgid "Upload previously saved game (ZIP file)"
+msgstr "Загрузить ранее сохраненную игру (ZIP-файл)"
+
+#: views/setup_games.php:23
+msgid "Create a new game"
+msgstr "Создать новую игру"
+
+#: views/setup_games.php:24
+msgid ""
+"<i>Not finding your game?</i> You can create your own!<br/>We'll take you to"
+" map editing right away."
+msgstr "<i>Не можете найти свою игру?</i>Создайте её сами!<br/>Вы будете незамедлительно переправлены на страницу управления картами."
+
+#: views/setup_games.php:25
+msgid "Type in a new game's name"
+msgstr "Введите название новой игры"
+
+#: views/setup_team.php:4
+msgid "Setup your team"
+msgstr "Настройки вашей команды"
+
+#: views/setup_team.php:12
+msgid "Hey there! Just a couple of things to complete your installation."
+msgstr "Внесите начальные настройки чтобы завершить установку."
+
+#: views/setup_team.php:14
+msgid "What is the name of your team?"
+msgstr "Какое название у вашей команды?"
+
+#: views/setup_team.php:16
+msgid "Type in your team's name"
+msgstr "Введите название вашей команды"
+
+#: views/setup_team.php:19
+msgid "Where is it from?"
+msgstr "Откуда ваша команда?"
+
+#: views/team_table.php:2 wp-clanwars.php:397 wp-clanwars.php:398
+msgid "Teams"
+msgstr "Команды"
+
+#: wp-clanwars-widget.php:44
+msgid "ClanWars widget"
+msgstr "ClanWars виджет"
+
+#: wp-clanwars-widget.php:46 wp-clanwars-widget.php:49
+#: wp-clanwars-widget.php:106 wp-clanwars.php:377 wp-clanwars.php:378
+msgid "ClanWars"
+msgstr "ClanWars"
+
+#: wp-clanwars-widget.php:60
+msgid "Custom"
+msgstr "Указать вручную"
+
+#: wp-clanwars-widget.php:61
+msgid "Show all"
+msgstr "Показать все"
+
+#: wp-clanwars-widget.php:62
+msgid "1 day"
+msgstr "1 день"
+
+#: wp-clanwars-widget.php:63
+msgid "2 days"
+msgstr "2 дня"
+
+#: wp-clanwars-widget.php:64
+msgid "3 days"
+msgstr "3 дня"
+
+#: wp-clanwars-widget.php:65
+msgid "1 week"
+msgstr "1 неделя"
+
+#: wp-clanwars-widget.php:66
+msgid "2 weeks"
+msgstr "2 недели"
+
+#: wp-clanwars-widget.php:67
+msgid "3 weeks"
+msgstr "3 недели"
+
+#: wp-clanwars-widget.php:68
+msgid "1 month"
+msgstr "1 месяц"
+
+#: wp-clanwars-widget.php:69
+msgid "2 months"
+msgstr "2 месяца"
+
+#: wp-clanwars-widget.php:70
+msgid "3 months"
+msgstr "3 месяца"
+
+#: wp-clanwars-widget.php:71
+msgid "6 months"
+msgstr "6 месяцев"
+
+#: wp-clanwars-widget.php:72
+msgid "1 year"
+msgstr "1 год"
+
+#: wp-clanwars-widget.php:269
+msgid "Title:"
+msgstr "Название:"
+
+#: wp-clanwars-widget.php:274
+msgid "Hide title"
+msgstr "Скрыть название"
+
+#: wp-clanwars-widget.php:284
+msgid "Display both teams"
+msgstr "Показать обе команды"
+
+#: wp-clanwars-widget.php:294
+msgid "Display game icon"
+msgstr "Показать иконку игры"
+
+#: wp-clanwars-widget.php:298
+msgid "Show games:"
+msgstr "Показывать игры:"
+
+#: wp-clanwars-widget.php:304
+msgid "Do not check any game if you want to show all games."
+msgstr "Не выбирайте игры, чтобы показать все."
+
+#: wp-clanwars-widget.php:307
+msgid "Show matches:"
+msgstr "Показать матчи:"
+
+#: wp-clanwars-widget.php:312
+msgid "Hide matches older than"
+msgstr "Скрыть матчи старше чем"
+
+#: wp-clanwars-widget.php:321
+msgid "Custom (days): "
+msgstr "По выбору (в днях)"
+
+#: wp-clanwars.php:451
+msgid "Are you sure you want to delete this map?"
+msgstr "Вы уверены, что хотите удалить эту карту?"
+
+#: wp-clanwars.php:452
+msgid "Are you sure you want to delete this game?"
+msgstr "Вы уверены, что хотите удалить эту игру?"
+
+#: wp-clanwars.php:453
+msgid "Are you sure you want to delete this team?"
+msgstr "Вы уверены, что хотите удалить эту команду"
+
+#: wp-clanwars.php:454
+msgid "Are you sure you want to delete this match?"
+msgstr "Вы уверены, что хотите удалить этот матч?"
+
+#: wp-clanwars.php:523
+msgid "Continue"
+msgstr "Продолжить"
+
+#: wp-clanwars.php:526
+msgid "Get started"
+msgstr "Начать пользоваться"
+
+#: wp-clanwars.php:591 wp-clanwars.php:615 wp-clanwars.php:840
+#: wp-clanwars.php:872 wp-clanwars.php:935 wp-clanwars.php:1041
+#: wp-clanwars.php:1121 wp-clanwars.php:1530 wp-clanwars.php:1696
+#: wp-clanwars.php:1779 wp-clanwars.php:1868 wp-clanwars.php:1903
+#: wp-clanwars.php:2020 wp-clanwars.php:2024 wp-clanwars.php:2055
+#: wp-clanwars.php:2214 wp-clanwars.php:2491 wp-clanwars.php:2512
+#: wp-clanwars.php:2539 wp-clanwars.php:2566 wp-clanwars.php:2605
+msgid "Cheatin&#8217; uh?"
+msgstr "Cheatin&#8217; uh?"
+
+#: wp-clanwars.php:607
+msgid "Please fill in all required fields."
+msgstr "Пожалуйста, заполните все обязательные поля."
+
+#: wp-clanwars.php:639 wp-clanwars.php:2581 wp-clanwars.php:2596
+msgid "Imported game."
+msgstr "Игра импортирована."
+
+#: wp-clanwars.php:643 wp-clanwars.php:2585 wp-clanwars.php:2630
+msgid "Failed to upload file."
+msgstr "Невозможно загрузить файл."
+
+#: wp-clanwars.php:658
+msgid "Failed to create a game."
+msgstr "Невозможно создать игру."
+
+#: wp-clanwars.php:660
+msgid "Created a game."
+msgstr "Игра создана."
+
+#: wp-clanwars.php:667
+msgid "Please fill in the game name."
+msgstr "Пожалуйста, заполните название игры."
+
+#: wp-clanwars.php:764
+msgid ""
+"The uploaded file exceeds the <code>upload_max_filesize</code> directive in "
+"<code>php.ini</code>."
+msgstr "Загруженный файл превышает значение <code>upload_max_filesize</code> директивы в <code>php.ini</code>."
+
+#: wp-clanwars.php:765
+msgid ""
+"The uploaded file exceeds the <em>MAX_FILE_SIZE</em> directive that was "
+"specified in the HTML form."
+msgstr "Загруженный файл превышает значение <em>MAX_FILE_SIZE</em> директиву указанную в HTML форме."
+
+#: wp-clanwars.php:766
+msgid "The uploaded file was only partially uploaded."
+msgstr "Файл был загружен не полностью."
+
+#: wp-clanwars.php:767
+msgid "No file was uploaded."
+msgstr "Файл не был загружен."
+
+#: wp-clanwars.php:768
+msgid "Missing a temporary folder."
+msgstr "Невозможно папку для хранения временных файлов."
+
+#: wp-clanwars.php:769
+msgid "Failed to write file to disk."
+msgstr "Ошибка при записи файла на диск."
+
+#: wp-clanwars.php:770
+msgid "File upload stopped by extension."
+msgstr "Загрузка файла была прервана PHP-расширением."
+
+#: wp-clanwars.php:771
+msgid "File type does not meet security guidelines. Try another."
+msgstr "Файл не удовлетворяет правилам безопасности. Попробуйте другой."
+
+#: wp-clanwars.php:785
+msgid "Unknown upload error: %d"
+msgstr "Неизвестная ошибка при загрузке: %d"
+
+#: wp-clanwars.php:826
+msgid "Failed to save attachment in database."
+msgstr "Невозможно сохранить вложение в базу данных."
+
+#: wp-clanwars.php:859 wp-clanwars.php:1050
+msgid "Failed to delete a team. Error: %s"
+msgstr "Невозможно удалить команду. Ошибка: %s"
+
+#: wp-clanwars.php:862 wp-clanwars.php:1053
+msgid "Deleted %d team."
+msgid_plural "Deleted %d teams."
+msgstr[0] "Удалена %d команда."
+msgstr[1] "Удалено %d команды."
+msgstr[2] "Удалено %d команд."
+msgstr[3] "Удалено %d команд."
+
+#: wp-clanwars.php:888
+msgid "Add Team"
+msgstr "Добавить команду"
+
+#: wp-clanwars.php:895
+msgid "Edit Team"
+msgstr "Изменить команду"
+
+#: wp-clanwars.php:895
+msgid "Update Team"
+msgstr "Обновить команду"
+
+#: wp-clanwars.php:970 wp-clanwars.php:1008
+msgid "Team title is a required field."
+msgstr "Название команды является обязательным полем."
+
+#: wp-clanwars.php:989
+msgid "Added a new team."
+msgstr "Добавлена новая команда."
+
+#: wp-clanwars.php:994
+msgid "Failed to add a team."
+msgstr "Невозможно добавить команду."
+
+#: wp-clanwars.php:1027
+msgid "Updated a team."
+msgstr "Команда обновлена."
+
+#: wp-clanwars.php:1033
+msgid "Failed to update a team."
+msgstr "Невозможно обновить команду."
+
+#: wp-clanwars.php:1082 wp-clanwars.php:2472
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-clanwars.php:1083 wp-clanwars.php:2473
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-clanwars.php:1088 wp-clanwars.php:2328
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Показываем %s&#8211;%s из %s"
+
+#: wp-clanwars.php:1145
+msgid "Failed to delete games. Error: %s"
+msgstr "Невозможно удалить игры. Ошибка: %s"
+
+#: wp-clanwars.php:1148
+msgid "Deleted %d game."
+msgid_plural "Deleted %d games."
+msgstr[0] "Удалена %d игра."
+msgstr[1] "Удалено %d игры."
+msgstr[2] "Удалено %d игр."
+msgstr[3] "Удалено %d игр."
+
+#: wp-clanwars.php:1393
+msgid "Unable to unzip file: %s"
+msgstr "Невозможно распаковать файл: %s"
+
+#: wp-clanwars.php:1413
+msgid "Metadata file is not found in ZIP."
+msgstr "Мета данные не найдены в ZIP архиве."
+
+#: wp-clanwars.php:1420 wp-clanwars.php:1449
+msgid "Corrupted or missing contents from ZIP file."
+msgstr "Содержимое ZIP файла повреждено или отсутствует."
+
+#: wp-clanwars.php:1440
+msgid ""
+"Unsupported document version (%d). The current supported version is (%d)"
+msgstr "Неподдерживаемая версия документа (%d). Текущая поддерживаемая версия: (%d)"
+
+#: wp-clanwars.php:1469
+msgid "Failed to add game."
+msgstr "Невозможно добавить игру."
+
+#: wp-clanwars.php:1489
+msgid "New Game"
+msgstr "Новая игра"
+
+#: wp-clanwars.php:1489
+msgid "Add Game"
+msgstr "Добавить игру"
+
+#: wp-clanwars.php:1496
+msgid "Edit Game"
+msgstr "Изменить игру"
+
+#: wp-clanwars.php:1496
+msgid "Update Game"
+msgstr "Обновить игру"
+
+#: wp-clanwars.php:1566 wp-clanwars.php:1599
+msgid "Game title is a required field."
+msgstr "Название игры является обязательным полем."
+
+#: wp-clanwars.php:1581
+msgid "Added a new game."
+msgstr "Добавлена новая игра."
+
+#: wp-clanwars.php:1586
+msgid "Failed to add a game."
+msgstr "Невозможно добавить игру."
+
+#: wp-clanwars.php:1618
+msgid "Updated a game."
+msgstr "Игра обновлена."
+
+#: wp-clanwars.php:1623
+msgid "Failed to update a game."
+msgstr "Невозможно обновить игру."
+
+#: wp-clanwars.php:1633 wp-clanwars.php:1665
+msgid "Map title is a required field."
+msgstr "Название карты является обязательным полем."
+
+#: wp-clanwars.php:1648
+msgid "Added a map."
+msgstr "Добавлена карта."
+
+#: wp-clanwars.php:1653
+msgid "Failed to add a map."
+msgstr "Невозможно добавить карту."
+
+#: wp-clanwars.php:1684
+msgid "Updated a map."
+msgstr "Карта обновлена."
+
+#: wp-clanwars.php:1688
+msgid "Failed to update a map."
+msgstr "Невозможно обновить карту."
+
+#: wp-clanwars.php:1705 wp-clanwars.php:1797
+msgid "Failed to delete maps. Error: %s"
+msgstr "Невозможно удалить карты. Ошибка: %s"
+
+#: wp-clanwars.php:1708 wp-clanwars.php:1800
+msgid "Deleted %d map."
+msgid_plural "Deleted %d maps."
+msgstr[0] "Удалена %d карта."
+msgstr[1] "Удалено %d карты."
+msgstr[2] "Удалено %d карт."
+msgstr[3] "Удалено %d карт."
+
+#: wp-clanwars.php:1826
+msgid "Add Map"
+msgstr "Добавить карту"
+
+#: wp-clanwars.php:1833
+msgid "Edit Map"
+msgstr "Изменить карту"
+
+#: wp-clanwars.php:1833
+msgid "Update Map"
+msgstr "Обновить карту"
+
+#: wp-clanwars.php:1878 wp-clanwars.php:2223
+msgid "Failed to delete matches. Error: %s"
+msgstr "Невозможно удалить матчи. Ошибка: %s"
+
+#: wp-clanwars.php:1881 wp-clanwars.php:2226
+msgid "Deleted %d match."
+msgid_plural "Deleted %d matches."
+msgstr[0] "Удалён %d матч."
+msgstr[1] "Удалено %d матча."
+msgstr[2] "Удалено %d матчей."
+msgstr[3] "Удалено %d матчей."
+
+#: wp-clanwars.php:1890
+msgid "Add Match"
+msgstr "Добавить матч"
+
+#: wp-clanwars.php:1897
+msgid "Edit Match"
+msgstr "Изменить матч"
+
+#: wp-clanwars.php:1897
+msgid "Update Match"
+msgstr "Обновить матч"
+
+#: wp-clanwars.php:2011
+msgid "Add match"
+msgstr "Добавить матч"
+
+#: wp-clanwars.php:2014
+msgid "Edit match"
+msgstr "Редактировать матч"
+
+#: wp-clanwars.php:2042
+msgid "Add Round"
+msgstr "Добавить раунд"
+
+#: wp-clanwars.php:2043
+msgid "Exclude map from match"
+msgstr "Исключить карту из матча"
+
+#: wp-clanwars.php:2044
+msgid "Remove round"
+msgstr "Удалить раунд"
+
+#: wp-clanwars.php:2046
+msgid "Are you sure you want to delete this screenshot?"
+msgstr "Вы уверены, что хотите удалить этот скриншот?"
+
+#: wp-clanwars.php:2113
+msgid "Failed to add a match."
+msgstr "Невозможно добавить матч."
+
+#: wp-clanwars.php:2135
+msgid "Added a match."
+msgstr "Матч добавлен."
+
+#: wp-clanwars.php:2204
+msgid "Updated a match."
+msgstr "Матч обновлен."
+
+#: wp-clanwars.php:2322
+msgid "&larr;"
+msgstr "&larr;"
+
+#: wp-clanwars.php:2323
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: wp-clanwars.php:2505 wp-clanwars.php:2532 wp-clanwars.php:2559
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: wp-clanwars.php:2622
+msgid ""
+"The game has been published and will be publicly available shortly after "
+"review."
+msgstr "Игра была опубликована и будет публично доступна сразу же после проверки."
+
+#: wp-clanwars.php:2626
+msgid "You must agree to the licensing terms."
+msgstr "Вы должны согласиться с условиями лицензии."
+
+#: wp-clanwars.php:2647
+msgid "Failed to log in: %s"
+msgstr "Невозможно выполнить вход: %s"
+
+#: wp-clanwars.php:2650
+msgid "Logged in as %s."
+msgstr "Вход выполнен под именем %s."
+
+#: wp-clanwars.php:2677
+msgid "Failed to update the account info: %s"
+msgstr "Невозможно изменить данные вашего аккаунта: %s"
+
+#: wp-clanwars.php:2679
+msgid "Updated account."
+msgstr "Аккаунт изменен."
+
+#: wp-clanwars.php:2709
+msgid "User Login"
+msgstr "Имя пользователя"
+
+#: wp-clanwars.php:2710
+msgid "Permissions"
+msgstr "Разрешения"
+
+#. Plugin Name of the plugin/theme
+msgid "WP-ClanWars"
+msgstr "WP-ClanWars"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/pronebird/wp-clanwars"
+msgstr "https://github.com/pronebird/wp-clanwars"
+
+#. Description of the plugin/theme
+msgid "Content manager for e-sports teams and communities"
+msgstr "Управление содержимым сайта для игровых команд и сообществ"
+
+#. Author of the plugin/theme
+msgid "Andrej Mihajlov"
+msgstr "Андрей Михайлов"
+
+#. Author URI of the plugin/theme
+msgid "http://www.codeispoetry.ru/"
+msgstr "http://www.codeispoetry.ru/"
+
+#. Tags of the plugin/theme
+msgid "esport, clanwar, team, clan, game, gaming, sport, match"
+msgstr "кланвар, команда, клан, игра, спорт, матч"
